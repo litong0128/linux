@@ -1,0 +1,7 @@
+[root@localhost Desktop]# rpm -ivh http://mirrors.163.com/centos/6/os/x86_64/Packages/python-iniparse-0.3.1-2.1.el6.noarch.rpm
+[root@localhost Desktop]# rpm -ivh http://mirrors.163.com/centos/6/os/x86_64/Packages/yum-metadata-parser-1.1.2-16.el6.x86_64.rpm
+[root@localhost Desktop]# rpm -ivh http://mirrors.163.com/centos/6/os/x86_64/Packages/yum-3.2.29-60.el6.centos.noarch.rpm  http://mirrors.163.com/centos/6/os/x86_64/Packages/yum-plugin-fastestmirror-1.1.30-30.el6.noarch.rpm
+[root@localhost Desktop]# cd /etc/yum.repos.d/
+[root@localhost yum.repos.d]# wget http://mirrors.163.com/.help/CentOS6-Base-163.repo
+[root@localhost yum.repos.d]# sed -i "s/\$releasever/6/" CentOS6-Base-163.repo
+[root@localhost yum.repos.d]# 

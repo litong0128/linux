@@ -1,0 +1,6 @@
+sh: /home/litong/FXQ/shell/fxq_clean.sh: cannot execute
+find: cannot chdir to </home/litong/FXQ/data/20150802> : No such file or directory
+find: cannot chdir to </home/litong/FXQ/data/20150803> : No such file or directory
+find: cannot chdir to </home/litong/FXQ/data/20150804> : No such file or directory
+find: cannot chdir to </home/litong/FXQ/data/20150805> : No such file or directory
+rm: /home/litong/FXQ/fxq_sqlldr.out: No such file or directory

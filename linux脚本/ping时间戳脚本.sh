@@ -1,0 +1,1 @@
+ping 132.35.227.99 | awk '{ print $0"\t" strftime("%Y-%m-%d %H:%M:%S",systime()) } '

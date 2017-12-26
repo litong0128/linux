@@ -1,0 +1,9 @@
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String dl = "hzywbn";
+		File f = new File("D:\\reportSX");
+		String[] strs = f.list();
+		for(String s : strs){
+			System.out.println(dl + "/" + s);
+		}
+	}

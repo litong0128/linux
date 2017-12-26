@@ -1,0 +1,7 @@
+echo `date +%y%m%d\ %H:%M:%S`
+echo `TZ=aaa16 date +%y%m%d\ %H:%M:%S`
+echo `TZ=aaa13 date +%y%m%d\ %H:%M:%S`
+echo `TZ=aaa3 date +%y%m%d\ %H:%M:%S`
+aa=`TZ=aaa4 date +%Y%m%d\ %H:%M:%S`
+echo `TZ=aaa16 date +%y%m%d\ %H:%M:%S`
+echo $aa
